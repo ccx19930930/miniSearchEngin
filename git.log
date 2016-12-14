@@ -1,0 +1,203 @@
+commit a83adf9d8a425de3b47c8146820df8c5dcd5d94b
+Author: ccx19930930 <461661280@qq.com>
+Date:   Wed Dec 14 21:51:39 2016 +0800
+
+    创建README.md，删除一些不必要的文件
+
+commit 461ed2280962d42022c24da24aea551d300b368a
+Author: ccx19930930 <461661280@qq.com>
+Date:   Thu Dec 8 17:56:55 2016 +0800
+
+    将词典并入server中，并修改查询模块，使之匹配词典
+
+commit ad42126567bc1c54b1348bef6a9a7e2cb78c6998
+Author: ccx19930930 <461661280@qq.com>
+Date:   Wed Dec 7 16:51:55 2016 +0800
+
+    修正倒排索引计算方式；词典并入WebDataBase；并将倒排索引存在词典中，对词典进行修改
+
+commit c03d1784faa2530cd7c3a3f178a4fc979462ec0d
+Author: ccx19930930 <461661280@qq.com>
+Date:   Wed Dec 7 10:44:34 2016 +0800
+
+    修改WebDataBase数据结构，准备并入词典
+
+commit bd9a33f13603ef3b53184e3b9ce9408638b71fb4
+Author: ccx19930930 <461661280@qq.com>
+Date:   Mon Dec 5 11:44:18 2016 +0800
+
+    词典联想功能OK，目测可以多线程服务
+
+commit e5085f07d6f8578bad1ae39d85bf88db6886c51d
+Author: ccx19930930 <461661280@qq.com>
+Date:   Mon Dec 5 10:22:35 2016 +0800
+
+    词典导入导出OK
+
+commit 03bdaed080f8a60c63425980195fcf8937491c22
+Author: ccx19930930 <461661280@qq.com>
+Date:   Sun Dec 4 15:48:46 2016 +0800
+
+    词典查找OK
+
+commit c4061935f388e8b71b95a19eb9c29b2b22136674
+Author: ccx19930930 <461661280@qq.com>
+Date:   Sun Dec 4 15:23:53 2016 +0800
+
+    词典新增功能：导入与导出；原有功能：增、遍历；待增加功能：查
+
+commit ef1ade5154d518d74f4ec4cc4ed25f21e4b6c90d
+Author: ccx19930930 <461661280@qq.com>
+Date:   Sat Dec 3 17:13:41 2016 +0800
+
+    词典单独测试OK，MySql暂停
+
+commit 291defdfddaae5dee0eada60ea0c3f8ae119a060
+Author: ccx19930930 <461661280@qq.com>
+Date:   Sat Dec 3 15:34:37 2016 +0800
+
+    开始制作词典，把UTF-8编码的string拆分成字OK
+
+commit c90d87e8d4b2f24e042148a4948661ec05b45b50
+Author: ccx19930930 <461661280@qq.com>
+Date:   Fri Dec 2 21:10:16 2016 +0800
+
+    致命错误：倒排索引计算错误，将在MySql中更正，开始使用MySql
+
+commit 94341f73a7f9bea68d2ad73122c37e85118a8b36
+Author: ccx19930930 <461661280@qq.com>
+Date:   Fri Dec 2 17:33:02 2016 +0800
+
+    缓存单查询线程下，测试OK，并能够从文件读取、写入
+
+commit 090823c4e3a4bb92b52a0d292c293c52766e435e
+Author: ccx19930930 <461661280@qq.com>
+Date:   Fri Dec 2 16:15:40 2016 +0800
+
+    队列式缓存初步完成，单计算线程下测试OK
+
+commit 94c65cf1eb2aec14973217c1637ce52f219f5081
+Author: ccx19930930 <461661280@qq.com>
+Date:   Thu Dec 1 22:42:01 2016 +0800
+
+    定时器OK
+
+commit 4be1a374a01e5847a843ae6b08bbacf70857ecf3
+Author: ccx19930930 <461661280@qq.com>
+Date:   Wed Nov 30 22:19:10 2016 +0800
+
+    摘要OK，自写客户端基本OK，PHP客户端协议不同，待改善
+
+commit 3da0b12f9b62e8d9cb4669cd133178ba41b121b1
+Author: ccx19930930 <461661280@qq.com>
+Date:   Wed Nov 30 18:06:38 2016 +0800
+
+    比较low的客户端测试OK
+
+commit 84888e56bdd327034bdfdc6ad3ec3bb3a634faec
+Author: ccx19930930 <461661280@qq.com>
+Date:   Wed Nov 30 17:48:01 2016 +0800
+
+    筛选摘要基本OK
+
+commit 0dfe94edce1934afda31cd31253edecd674a47a3
+Author: ccx19930930 <461661280@qq.com>
+Date:   Wed Nov 30 16:52:19 2016 +0800
+
+    能查找到东西，准备处理格式
+
+commit c7cc32d3aef2894578fdda972a65380ab8bc65b8
+Author: ccx19930930 <461661280@qq.com>
+Date:   Wed Nov 30 16:07:14 2016 +0800
+
+    查询模块初步完成，待与TCPSERVER合并测试
+
+commit 4fc9cbe25dbd303c1c2b4e5fc886bb53ee403e8d
+Author: ccx19930930 <461661280@qq.com>
+Date:   Tue Nov 29 20:51:21 2016 +0800
+
+    服务器读取网页库代码初步完成，待测试
+
+commit e2caf86e7b5459b9446bce9390d15a7f84aea00b
+Author: ccx19930930 <461661280@qq.com>
+Date:   Tue Nov 29 15:55:41 2016 +0800
+
+    版本库修复试用OK
+
+commit 3d8f4fb9bb31f055598e4a52085d442690f0dc27
+Author: ccx19930930 <461661280@qq.com>
+Date:   Tue Nov 29 15:48:56 2016 +0800
+
+    手工修复git版本库
+
+commit e5fc120abd41bbee03163c99246600280d3b56c0
+Author: ccx19930930 <461661280@qq.com>
+Date:   Tue Nov 29 10:27:10 2016 +0800
+
+    TCP与thread_pool部份文件整合
+
+commit c78cd7728dfd3c3aabebb24983465acde93dd02f
+Author: ccx19930930 <461661280@qq.com>
+Date:   Tue Nov 29 10:09:22 2016 +0800
+
+    三个库生成试用，开始编写在线部份
+
+commit 3b5eefd001eb99df1e2df927c9a9256fce62ca6c
+Author: ccx19930930 <461661280@qq.com>
+Date:   Mon Nov 28 23:23:43 2016 +0800
+
+    Json网页偏移表（正向索引）与倒排索引表基本完成，格式待后续改善
+
+commit 34c9f1757e1230b2c45e19a7f8833e40ef3373f5
+Author: ccx19930930 <461661280@qq.com>
+Date:   Mon Nov 28 17:26:59 2016 +0800
+
+    倒排索引算法OK，准备改写RSS写入代码与建立offset
+
+commit cd288fa7e4cdff6acad7a2c9d3b7a1029a3faad8
+Author: ccx19930930 <461661280@qq.com>
+Date:   Mon Nov 28 12:17:39 2016 +0800
+
+    给rss增加配置文件，统一管理各种路径
+
+commit 726234396fddfb3a9b8d4718f64788b4221bb96a
+Author: ccx19930930 <461661280@qq.com>
+Date:   Mon Nov 28 11:30:20 2016 +0800
+
+    更改分组容器（set -> list），去重OK
+
+commit b9ff8e4f2dc089822823973b2f62920b190a1228
+Author: ccx19930930 <461661280@qq.com>
+Date:   Sun Nov 27 23:15:26 2016 +0800
+
+    代码整合，把RSS相关输出都封装进RssOutput中
+
+commit 1c069ce4f3a6d10dd03dda1438d36755a2b3f3ef
+Author: ccx19930930 <461661280@qq.com>
+Date:   Sun Nov 27 20:33:01 2016 +0800
+
+    调整正则表达式与结巴分词，词频统计更加正常
+
+commit 959fa05c58dbcb6837d7b7a9062bf2f542a15a6b
+Author: ccx19930930 <461661280@qq.com>
+Date:   Sun Nov 27 00:00:53 2016 +0800
+
+    分组OK
+
+commit 1a5c8107af4852b0d8d36a76d988cb2a0b06cc10
+Author: ccx19930930 <461661280@qq.com>
+Date:   Sat Nov 26 10:43:29 2016 +0800
+
+    去停用词
+
+commit 31db0463027e42718de8e2bbd826586a89316723
+Author: ccx19930930 <461661280@qq.com>
+Date:   Fri Nov 25 22:06:23 2016 +0800
+
+    中文、英文单词词频统计，不包含全、半角标点符号
+
+commit 541115f2d1f08d2fe58a768e5a9d3a809bab1131
+Author: ccx19930930 <461661280@qq.com>
+Date:   Fri Nov 25 16:17:15 2016 +0800
+
+    build git

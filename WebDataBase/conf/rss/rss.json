@@ -1,0 +1,9 @@
+{
+	"intputXmlPath" : "../data/rss" ,
+	"outputRipepagePath" : "../data/Ripepage.lib" ,
+	"outputOffsetPath" : "../data/Offset.json" ,
+	"outputInvertindexPath"	: "../data/Invertindex.json" ,
+	"outputRssinitailPath" : "../data/test/rssinitail.lib" ,
+	"outputWordfrequencyPath" : "../data/test/wordfrequency.lib" ,
+	"outputGroupmsgPath" : "../data/test/group.lib"
+}

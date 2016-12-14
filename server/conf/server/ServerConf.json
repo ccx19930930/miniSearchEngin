@@ -1,0 +1,6 @@
+{
+	"IP" : "192.168.188.128",
+	"port" : 2000,
+	"PthreadNum" : 1,
+	"MaxQueueNum" : 10
+}

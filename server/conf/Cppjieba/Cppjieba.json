@@ -1,0 +1,7 @@
+{
+	"DICT_PATH" : "../conf/Cppjieba/dict/jieba.dict.utf8",
+	"HMM_PATH" : "../conf/Cppjieba/dict/hmm_model.utf8",
+	"USER_DICT_PATH" : "../conf/Cppjieba/dict/user.dict.utf8",
+	"IDF_PATH" : "../conf/Cppjieba/dict/idf.utf8",
+	"STOP_WORD_PATH" : "../conf/Cppjieba/dict/stop_words.utf8"
+}

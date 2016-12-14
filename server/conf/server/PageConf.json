@@ -1,0 +1,5 @@
+{
+	"RipepagePath" : "../../WebDataBase/data/Ripepage.lib" ,
+	"OffsetPath" : "../../WebDataBase/data/Offset.json" ,
+	"InvertindexPath" : "../../WebDataBase/data/Dictionary.json"
+}
